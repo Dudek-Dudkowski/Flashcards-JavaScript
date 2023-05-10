@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #333;
+    color: #ddd;
+}
+
+.wrapper{
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+    /* text-align: center; */
+}
+
+.appTitle{
+text-align: center;
+margin-top: 10px;
+}
+
+.flashcard{
+    margin: 10px auto 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    position: relative;
+    border: solid 5px #09f;
+    border-radius: 20px;
+    height: 600px;
+}
+
+.flashcard-bg{
+    margin-top: 40px;
+    position: absolute;
+    padding: 100px 120px 120px 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    transition: color .3s;
+    /* outline: solid 1px red; */
+}
+
+.flashcard-bg:hover{
+    color: #09f;
+}
+
+.flashcard-title{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flashcard-answer{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.buttons{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.buttons button{
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: #ddd;
+    padding: 10px;
+    margin: 0 20px;
+    transition: color .3s;
+}
+
+.buttons button:hover{
+    color: #09f;
+}
+
+.cardNumber{
+    font-size: 36px;
+}
+
+/* display-no class */
+
+.shadow{
+    display: none;
+}
+
+.mark{
+    color: #e6d919;
+    font-weight: bold;
+}
+
+.fsSmall{
+    font-size: 15px;
+}
+
+.img{
+    width: 300px;
+}
+
+/* color: #09f; */

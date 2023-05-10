@@ -1,0 +1,143 @@
+Pytania i odpowiedzi
+
+Pytanie 1
+Jaka jest różnica między <span class="mark"> setTimeout() </span> a <span class="mark"> setInterval()</span> ?
+
+Odpowiedź
+Funkcje <span class="mark"> setTimeout()</span> i <span class="mark"> setInterval()</span> są używane w celu opóźnienia
+lub powtarzania wykonania kodu po upływie określonego czasu w języku JavaScript. </br></br>
+
+<span class="mark"> setTimeout()</span> pozwala na wykonanie kodu jednorazowo, z opóźnieniem określonym w milisekundach.
+Oznacza to, że kod zostanie wykonany po określonym czasie i zakończy swoje działanie.</br></br>
+
+<span class="mark"> setInterval()</span> pozwala na powtarzające się wykonanie kodu z określoną przerwą między każdym
+wykonaniem. Oznacza to, że kod będzie wykonywany wielokrotnie, dopóki nie zostanie przerwany.
+
+Pytanie 2
+Jaka jest różnica między <span class="mark">==</span> i <span class="mark"> ===</span> ?
+Odpowiedź
+Operator <span class="mark">==</span> porównuje wartości bez uwzględnienia typu danych. Oznacza to, że wykonuje
+konwersję typu danych w celu porównania wartości. Jeśli wartości są różnych typów, operator <span class="mark">==</span>
+dokona próby zamiany jednego z typów wartości na inny typ. Na przykład, gdy porównywane są liczby i stringi, operator
+<span class="mark">==</span> przekształca stringi na liczby przed porównaniem.</br></br>
+Operator <span class="mark">===</span> porównuje wartości, uwzględniając typ danych. Oznacza to, że porównanie będzie
+prawdziwe tylko wtedy, gdy porównywane wartości są tego samego typu i mają taką samą wartość.
+
+Pytanie 3
+Jak wyczyścić tablicę obiektów w Javascript?
+Odpowiedź
+1. Nadpisanie tablicy pustą tablicą</br></br>
+2. Ustawienie właściwości <span class="mark">length</span> tablicy na wartość 0</br></br>
+3. Wykorzystanie metody <span class="mark">splice()</span>, która może być użyta do usuwania elementów z tablicy(<span
+    class="mark">splice()</span> modyfikuję tablicę i zwraca usunięte elementy)
+
+Pytanie 4
+Czym się różni <span class="mark">let</span> i <span class="mark">var</span>?
+Odpowiedź
+<span class="mark">let</span> służy do deklarowania zmiennych w sposób blokowy, co oznacza, że zmienna jest widoczna
+tylko w obrębie bloku kodu, w którym została zdefiniowana. </br></br>
+<span class="mark">var</span> służy do deklarowania zmiennych w sposób funkcyjny, co oznacza, że zmienna jest widoczna w
+całej funkcji, w której została zdefiniowana. W przypadku, gdy zmienna została zdefiniowana poza funkcją, jest ona
+widoczna na poziomie globalnym (dla całego skryptu).
+
+Pytanie 5
+Jakie są typty danych w JavaScript?
+Odpowiedź
+<p class="fsSmall">JavaScript posiada kilka podstawowych typów danych, które dzielą się na dwa rodzaje: wartości
+    prymitywne (ang. primitive values) oraz wartości złożone (ang. composite values).</br>
+    Wartości prymitywne to:</br>
+    1. <span class="mark">Number </span> - reprezentują liczby całkowite i liczby zmiennoprzecinkowe.</br>
+    2. <span class="mark">String </span> - reprezentują łańcuchy znaków, np. ciągi tekstowe.</br>
+    3. <span class="mark">Boolean </span> - reprezentuje wartości prawda/fałsz.</br>
+    4. <span class="mark">Undefined </span> - oznacza brak wartości, jest zwracane, gdy zmienna nie została
+    zdefiniowana. </br>
+    5. <span class="mark">Null </span> - oznacza brak wartości, jest zwracane, gdy wartość zmiennej jest celowo
+    nieustawiona.</br>
+    6. <span class="mark">Symbol </span> - reprezentuje unikalne identyfikatory, wprowadzone w ES6.</br>
+
+    Wartości złożone to:</br>
+    1. <span class="mark">Object </span> - reprezentują złożone struktury danych, np. tablice, funkcje, obiekty,
+    klasy.</br>
+    2. <span class="mark">Function </span> - reprezentują bloki kodu, które wykonują jakieś operacje.</br></p>
+
+Pytanie 6
+Jak utworzyć obiekt w JavaScript?
+Odpowiedź
+class Course {
+constructor(title) {this.title = title;}
+}
+// 1. Za pomocą konstruktora
+const jsCourse = new Course ('JS');
+// 2. Za pomocą Object Literal
+const angularCourse = {title: 'Angular'};
+// 3. Za pomocą new Object
+const reactCourse = newObject();
+reactCourse.title = 'React';
+// 4. Za pomocą Object.create
+const vueCourse = Object.create(jsCourse);
+vueCourse.this = 'Vue';
+
+Pytanie 7
+Jakie znasz falsy values?
+Odpowiedź
+W JavaScript znane są wartości, które są traktowane jako fałszowe (falsy values) w warunkach logicznych. Oto one:
+
+false
+0
+NaN
+null
+undefined
+"" (pusty string)
+
+Każda inna wartość jest traktowana jako prawdziwa (truthy value).
+
+Pytanie 8
+Co różni null od undefinde?
+Odpowiedź
+
+
+Pytanie 9
+Czym jest spread operator?
+Odpowiedź
+
+
+Pytanie 10
+Czym jest rest operator?
+Odpowiedź
+
+
+Pytanie 11
+Co oznacza NaN?
+Odpowiedź
+
+
+Pytanie 12
+Jak poprawnie stworzyć URL?
+Odpowiedź
+
+
+Pytanie 13
+Co odróżnia call() od apply()?
+Odpowiedź
+
+
+Pytanie 14
+Do czego służy funkcja bind()?
+Odpowiedź
+
+
+Pytanie 15
+Co różni slice() i splice()?
+Odpowiedź
+
+
+Zasoby
+<span class="mark"> </span>
+
+</br></br>
+
+<p class="fsSmall"></p>
+
+Pytanie
+
+Odpowiedź
